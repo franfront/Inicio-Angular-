@@ -1,0 +1,22 @@
+<h1>One piece</h1>
+
+<div class="row">
+  <div class="col">
+    <app-personajes> </app-personajes>
+    <!-- <h3>Personajes</h3>
+    <ul>
+      <li *ngFor="let personaje of personajes">{{personaje.nombre}} - {{personaje.rol}}</li>
+    </ul> -->
+  </div>
+
+  <div class="col">
+   <app-agregar  [data]="nuevo"></app-agregar>
+   
+    <!-- <h3>Agregar</h3>
+    <form (ngSubmit)="agregar()">
+      <input [(ngModel)]="nuevo.nombre" name="nombre" type="text" placeholder="Nombre" />
+      <input [(ngModel)]="nuevo.rol" name="rol" type="text" placeholder="Rol" />
+      <button type="submit">Agregar</button>
+    </form> -->
+  </div>
+</div>
